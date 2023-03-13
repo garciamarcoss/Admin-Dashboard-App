@@ -66,7 +66,7 @@ export const Contacts = () => {
           "& .MuiDataGrid-cell": {
             borderBottom: "none",
           },
-          "& name-column--cell": {
+          "& .name-column--cell": {
             color: colors.greenAccent[300],
           },
           "& .MuiDataGrid-columnHeaders": {
@@ -76,7 +76,7 @@ export const Contacts = () => {
           "& .MuiDataGrid-virtualScroller": {
             backgroundColor: colors.primary[400],
           },
-          "& MuiDataGrid-footerContainer": {
+          "& .MuiDataGrid-footerContainer": {
             backgroundColor: colors.blueAccent[700],
           },
           "& .MuiDataGrid-toolbarContainer .MuiButton-text": {

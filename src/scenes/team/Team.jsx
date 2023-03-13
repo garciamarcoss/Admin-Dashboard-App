@@ -67,6 +67,7 @@ export const Team = () => {
       },
     },
   ];
+  
   return (
     <Box m="20px">
       <Header title="TEAM" subtitle="Managing the Team Members" />
@@ -80,7 +81,7 @@ export const Team = () => {
           "& .MuiDataGrid-cell": {
             borderBottom: "none",
           },
-          "& name-column--cell": {
+          "& .name-column--cell": {
             color: colors.greenAccent[300],
           },
           "& .MuiDataGrid-columnHeaders": {
@@ -90,8 +91,11 @@ export const Team = () => {
           "& .MuiDataGrid-virtualScroller": {
             backgroundColor: colors.primary[400],
           },
-          "& MuiDataGrid-footerContainer": {
+          "& .MuiDataGrid-footerContainer": {
             backgroundColor: colors.blueAccent[700],
+          },
+          '& .MuiCheckbox-root': {
+            color: `${colors.greenAccent[200]} !important`,
           },
         }}
       >
